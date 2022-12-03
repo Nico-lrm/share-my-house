@@ -5,7 +5,7 @@ Développé sans Framework en HTML, CSS, JS, PHP.
 Réalisé en groupe de 4 :
 - https://github.com/Electr0lex
 - https://github.com/xByDevil
-- 
+- https://github.com/Haklow
 
 ## Fonctionnalités
 - Déposer son annonce de location
