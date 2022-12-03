@@ -14,4 +14,5 @@ Réalisé en groupe de 4 :
 - Service de messagerie avec bouton de rafraîchissement
 
 ## Screenshot 
-![]()
+Réservation d'un logement  
+![](https://github.com/Nico-lrm/share-my-house/blob/main/public/example/sharemyhouse_exemple_reservation.png)
