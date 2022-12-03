@@ -1,0 +1,114 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+main .bordure{
+    padding: 1rem;
+    text-align: justify;
+    border: 1px  #CCC solid;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+main .centre{
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Test */
+#carouselPhoto, #carouselPhoto img {
+  border-radius: 0.25rem;
+}
+#carouselPhoto img {
+  max-height: 550px;
+}
+
+main small {
+  color: grey;
+}
+
+.ta-note {
+  width: 100%; 
+  resize: none;
+}
+
+#form-result {
+  border: 1px solid red;
+  border-radius: 0.25rem;
+  color: red;
+  text-align: center;
+}
+
+
+main textarea{
+    resize:none;
+}
+
+/* Note */
+
+main .rate, main .rate-note {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+main .rate input, main .rate-note input {
+  display: none;
+}
+
+main .rate label, main .rate-note label {
+  float: right;
+  font-size: 0;
+  color: #d9d9d9;
+}
+
+main .rate label:before, main .rate-note label:before {
+  content: "\f005";
+  font-family: FontAwesome;
+  font-size: 40px;
+}
+
+main .rate label:hover,
+main .rate label:hover ~ label {
+  color: #f6c82c;
+  transition: 0.2s;
+}
+
+main .rate input:checked ~ label, main .rate-note input:checked ~ label {
+  color: #f6c82c;
+}
+
+main .rate input:checked ~ label:hover,
+main .rate input:checked ~ label:hover ~ label {
+  color: #FFED85;
+  transition: 0.2s;
+}
+
+
+/* Half-star*/
+
+main .star-half {
+  position: relative;
+}
+
+main .star-half:before {
+  position: absolute;
+  content: "\f089";
+  padding-right: 0;
+}
+
+/* Media queries pour le responsive */
+@media (max-width: 575.98px) { 
+    :root {
+        --font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }

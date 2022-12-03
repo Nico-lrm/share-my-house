@@ -1,0 +1,319 @@
+:root {
+    --background-color: #3b3540;
+    --color-hover: white;
+    --btn-clr: #7152bfcc;
+    --btn-clr-hover: #9c82dccc;
+    --text-color: #eee;
+    --font-size: 16px;
+    --color-err: #f7a1a1;
+}
+
+/* Basique - Formattage de base de la page */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size);
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+th, td {
+    text-align: center;
+}
+
+#card-cora {
+    background-color: #1f1f1f;
+}
+
+/* Section du Carrousel + de la Carte (avec le Background) */
+#card-cora .caroutext_container {
+    height: 95%;
+    box-shadow: 0px 0px 12px rgb(0, 0, 0);
+    background-color: #1f1f1fe7 /*#836141be*/;
+    text-align: center;
+}
+
+/* Carte "Réservez" */ 
+#card-cora .card {
+    margin-top: 9.5rem;
+    margin-bottom: 1.5em;
+    width: 45rem;
+    height: 38.5rem;
+    color: #000;
+    left: 2rem;
+    border-radius: 2rem 0rem 5rem 0rem ;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.445);
+}
+
+#card-cora .card-body {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5rem 0rem 5rem 0rem ;
+
+}
+
+#card-cora .card-title {
+    display: flexbox;
+    background-color: #bd8c5e3d;
+    box-shadow: rgba(0, 0, 0, 0.397);
+    border-radius: 2rem 0rem 2rem 0rem;
+    font-size: 64px;
+    text-align: center;
+}
+
+
+#card-cora .card-text {
+    font-size: 22.5px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 28px;
+    padding-bottom: 0px ;
+}
+
+
+
+/* Carrousel */
+#card-cora .carousel {
+    margin-top: 7rem ;
+    margin-bottom: 8rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    right: 3rem;
+
+
+    
+    
+}
+#card-cora a.btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* Taille des images du carrousel */
+#card-cora .carousel-item,
+#card-cora .carousel-item img {
+    max-height: 700px;
+    height: 700px;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+
+
+/* Taille des icones (back - next) du carrousel */
+#card-cora .carousel-control-prev-icon,
+#card-cora .carousel-control-next-icon  {
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+
+#card-cora .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 1s ease-out;
+}
+
+#card-cora .carousel-indicators button:hover {
+
+    background-color: #8a68429a;
+}
+
+
+
+/* Boutons */
+#card-cora #card-btn {
+    font-size: 1.2rem;
+    padding: 8px 22px;
+    width: 30rem;
+    height: 3.4rem;
+    color: rgb(0, 0, 0);
+    border-radius: 5rem;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+    font-weight: 500;
+    background-color: #a0815860;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+
+#card-cora #card-btn:hover {
+    color: rgba(0, 0, 0, 0.849);
+    background: #0504048a;
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+/* Réservations */
+#card-cora .booked_container {
+    height: 95%;
+}
+
+#card-cora .container-fluid#last_booked {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+#card-cora .jumbotron#booked {
+    padding: 55px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: #1f1f1f5d !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#card-cora .table {
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+#card-cora .table.table-striped {
+    text-align: center;
+    align-content: center;
+    font-size: large;
+}
+
+
+#card-cora .th {
+    font-size: large;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+/* Images Réservations déjà effectuées */
+#card-cora .pics_container#pics {
+    height: 70%;
+    background-color: #1f1f1fe7;
+}
+
+#card-cora .container-fluid#pics {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+
+#card-cora .jumbotron#pics {
+    padding: 55px;
+    margin-top: 5rem;
+    color: black;
+    background-color: #adadad/*#9b7f66bd*/ ;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 85%);
+}
+
+/* Lots de carte*/
+#card-cora .card#pics {
+    margin-top: 5rem;
+    width: 18rem;
+    height: 25rem;
+    color: rgb(31, 31, 31);
+    border-radius: 2rem 2rem 2rem 2rem ;
+    background-color: #e2e2e2fa ; 
+    align-items: center;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+}
+
+#card-cora .card-header#pics {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#card-cora .card-body#pics img {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 195px ;
+    border-radius: 5%;  
+}
+
+#card-cora .card-body#pics {
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+#card-cora p.card-text#pics {
+    margin-bottom: 0px;
+
+}
+
+#card-cora .card#pics:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
+#card-cora .card-footer-text#pics {
+    background-color: rgb(0, 0, 0,0);
+    border: #000;
+    border-width: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Card Nico */
+/* Image des cartes */
+#card-nico .card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#card-nico .card-price {
+    text-align: right;
+}
+
+/* Redéfinition de la classe padding-x de Bootstrap */
+#card-nico .px-5 {
+    padding-left: 2.25rem !important;
+    padding-right: 2.65rem !important;
+}
+#card-nico .card {
+    border-radius: 5px;
+}
+#card-nico .card-text {
+    color: grey;
+}
+#card-nico .card-title, .card-text {
+    margin-bottom: 0.25rem;
+}
+
+
+/* Media queries pour le responsive */
+@media (max-width: 1399.98px) { 
+    :root {
+        --font-size: 16px;
+    }
+}
+@media (max-width: 1199.98px) { 
+    :root {
+        --font-size: 15px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    :root {
+        --font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    :root {
+        --font-size: 13px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    :root {
+        --font-size: 12px;
+    }
+}
